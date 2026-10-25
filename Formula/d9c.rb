@@ -5,28 +5,28 @@
 class D9c < Formula
   desc "Terminal UI for managing Docker on remote hosts over TCP or SSH"
   homepage "https://github.com/kirg0/d9c"
-  version "1.31.0"
+  version "1.31.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/kirg0/d9c/releases/download/v1.31.0/d9c_v1.31.0_darwin_amd64.tar.gz"
-      sha256 "5de0766c47f0978d02dc4414de54dc97fa4095ed0af2804c0c897e958006f095"
+      url "https://github.com/kirg0/d9c/releases/download/v1.31.1/d9c_v1.31.1_darwin_amd64.tar.gz"
+      sha256 "8414421e7f32094fbeb46e2f3d0d3eee974a1ea604a2a346fda9103ee1a9b9a4"
     end
     on_arm do
-      url "https://github.com/kirg0/d9c/releases/download/v1.31.0/d9c_v1.31.0_darwin_arm64.tar.gz"
-      sha256 "d96a5dee263f3a7b6d7789909e0f877f53d17f5e516e87e729a2f78d92612b82"
+      url "https://github.com/kirg0/d9c/releases/download/v1.31.1/d9c_v1.31.1_darwin_arm64.tar.gz"
+      sha256 "7658589268af6a706b0ebcf5dce0fb9016962a59b488e5ff6549a9e671a9ea7b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kirg0/d9c/releases/download/v1.31.0/d9c_v1.31.0_linux_amd64.tar.gz"
-      sha256 "3e993121b04b65915d42184d4660ddc0d2bd2bf3be157bdbd555c6a483bd778c"
+      url "https://github.com/kirg0/d9c/releases/download/v1.31.1/d9c_v1.31.1_linux_amd64.tar.gz"
+      sha256 "065d4b5522be2d255e32d8a64398010a1a729d61a10af67ce5e200acf3f56d17"
     end
     on_arm do
-      url "https://github.com/kirg0/d9c/releases/download/v1.31.0/d9c_v1.31.0_linux_arm64.tar.gz"
-      sha256 "2422611af1bd9b8315e98cc783742a311f4873f056897e480ddf1ead9f46c9e2"
+      url "https://github.com/kirg0/d9c/releases/download/v1.31.1/d9c_v1.31.1_linux_arm64.tar.gz"
+      sha256 "abe659a4720cf98959141f257de6041dc5e0a0761a175e1774bbaf11c6610955"
     end
   end
 
